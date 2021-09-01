@@ -1,0 +1,13 @@
+<div class="container">
+    <p>AGREGAR CLIENTE</p>
+    <form>
+        <div class="mb3">
+            <input [(ngModel)]="cliente.nombre" type="text" class="form-control" value="Nombre" name="nombre">
+        </div>
+        <div class="mb3">
+            <input [(ngModel)]="cliente.email" type="email" class="form-control" value="Correo" name="correo">
+        </div>
+        <button (click)="agregar()" class="form-control" class="btn btn-primary , form-control">Agregar</button>
+    </form>
+
+</div>

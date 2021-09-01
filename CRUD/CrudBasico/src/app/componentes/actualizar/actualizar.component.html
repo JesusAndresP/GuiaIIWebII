@@ -1,0 +1,13 @@
+<div class="container">
+    <p>ACTUALIZAR DATOS CLIENTE</p>
+    <form>
+        <div class="mb3">
+            <input [(ngModel)]="cliente.nombre" type="text" class="form-control"  name="nombre">
+        </div>
+        <div class="mb3">
+            <input [(ngModel)]="cliente.email" type="email" class="form-control"  name="correo">
+        </div>
+        <button (click)="actualizar()" class="form-control" class="btn btn-primary , form-control">Guardar</button>
+    </form>
+
+</div>
